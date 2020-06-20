@@ -12,6 +12,10 @@
   display: block;
   font-size: 3.653rem;
   line-height: 3.375rem;
+
+  &--white{
+    color: rgba($color-cream, 0.7);
+  }
 }
 
 .sub-heading{

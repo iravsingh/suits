@@ -1,5 +1,82 @@
 .section-contact{
   grid-column: col-start 2 / col-end 11;
 
-  background-color: tan;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-left{
+  padding: 2rem;
+  grid-column: 1;
+
+  &--form{
+    border-bottom: 1px solid rgba($color-blue, 0.5);
+  }
+}
+
+.contact-right{
+  grid-column: 2;
+  padding: 2rem;
+}
+
+.form{
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba($color-blue, 0.4);
+
+  &__group{
+    
+    label{
+      display: block;
+      font-size: 1.2656rem;
+    }
+
+    input, textarea{
+      width: 80%;
+      padding: .5rem .8rem;
+    }
+  }
+
+
+}
+
+.social{
+  
+  &__icon{
+    width: 2rem;
+    fill: $color-gold;
+    margin-top: -1rem;
+
+    &:not(:first-child){
+      margin-left: 1.5rem;
+    }
+    
+  }
+}
+
+.contact-right-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-group{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  svg{
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  p{
+    border-left: 1px solid rgba($color-blue, 0.4);
+    padding-left: 1rem;
+    // align-self: center;
+  }
+}
+
+.map{
+  width: 110%;
+  display: block;
 }
