@@ -1,0 +1,26 @@
+$font-heading: 'Cormorant Garamond', serif;
+$font-display: 'Source Sans Pro', sans-serif;
+
+$color-blue: #222c3c;
+$color-grey: #999ea7;
+$color-gold : #d8b26e;
+$color-coffee : #b69b7d;
+$color-cream : #e2e0d5;
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: $font-display;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $color-blue;
+}

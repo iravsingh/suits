@@ -1,0 +1,7 @@
+.section-testimonials{
+  grid-column: col-start 2 / col-end 11;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16.8rem, 1fr));
+  grid-gap: 5.5rem;
+}

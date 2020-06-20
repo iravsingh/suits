@@ -1,0 +1,25 @@
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__img{
+    width: 10rem;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    
+
+    &--inside{
+      width: 100%;
+      display: block;
+      border-radius: 100%;
+    }
+  }
+
+  &__name{
+    opacity: .8;
+  }
+}

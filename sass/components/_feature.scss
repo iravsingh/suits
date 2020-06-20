@@ -1,0 +1,27 @@
+.feature{
+  background-color: rgba($color-cream, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 15rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+
+  &__heading{
+    grid-column: 1/-1;
+    // margin-bottom: 0rem;
+  }
+
+  &__icon{
+    width: 5rem;
+    height: 5rem;
+    fill: $color-gold;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text{
+    width: 95%;
+    text-align: left;
+  }
+}
