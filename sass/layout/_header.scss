@@ -11,6 +11,9 @@
   @media only screen and (max-width: $bp-2) {
     grid-template-columns: 1fr 6fr 1fr;
   }
+  @media only screen and (max-width: $bp-7) {
+    grid-template-rows: 2fr 1fr 2fr;
+  }
 
   &__img {
     grid-row: 1 / -1;
@@ -22,7 +25,6 @@
     @media only screen and (max-width: $bp-2) {
       display: none;
     }
-    
   }
 
   &__btn--align {
