@@ -7,9 +7,34 @@ $color-gold : #d8b26e;
 $color-coffee : #b69b7d;
 $color-cream : #e2e0d5;
 
+$bp-1: 66em; //1050px
+$bp-2: 60.62em; //970px
+$bp-3: 56.25em; //900px
+$bp-4: 43.75em; //700px
+$bp-5: 33.125em; //530px
+$bp-6: 28.125em; //450px
+$bp-7: 25em; //400px
+
+
 html{
     font-size: 100%;
     box-sizing: border-box;
+
+    @media only screen and (max-width: $bp-1) {
+        font-size: 90%;
+    }
+
+    @media only screen and (max-width: $bp-4) {
+        font-size: 85%;
+    }
+
+    @media only screen and (max-width: $bp-6) {
+        font-size: 80%;
+    }
+    @media only screen and (max-width: $bp-7) {
+        font-size: 75%;
+    }
+
 }
 
 *{

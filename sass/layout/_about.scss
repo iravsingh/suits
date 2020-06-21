@@ -1,6 +1,21 @@
-.section-about{
+.section-about {
   grid-column: col-start 2 / col-end 11;
 
   width: 80%;
   margin: 5rem auto 0rem auto;
+
+  @media only screen and (max-width: $bp-2) {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  @media only screen and (max-width: $bp-3) {
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  @media only screen and (max-width: $bp-5) {
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  
 }

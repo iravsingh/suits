@@ -8,6 +8,9 @@
   // border-bottom: 1.2px dashed rgba($color-gold, 0.5);
   // border-right: 1.2px dashed rgba($color-gold, 0.5);
   // margin-bottom: 2rem;
+  @media only screen and (max-width: $bp-2) {
+    grid-template-columns: 1fr 6fr 1fr;
+  }
 
   &__img {
     grid-row: 1 / -1;
@@ -15,6 +18,11 @@
     max-width: auto;
     height: 100%;
     display: block;
+
+    @media only screen and (max-width: $bp-2) {
+      display: none;
+    }
+    
   }
 
   &__btn--align {
